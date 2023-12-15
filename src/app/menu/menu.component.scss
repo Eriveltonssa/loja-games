@@ -7,9 +7,13 @@
     font-family: 'Gotham';
     font-size: 18px;
     font-weight: 300;
-    gap: 5px;
+    gap: 10px;
     color: var(--fonte-white);
     
+}
+.menu .logo img{
+    width: 4vw;
+    cursor: pointer;
 }
 
 mat-toolbar{
@@ -18,7 +22,7 @@ mat-toolbar{
     justify-content: space-between;
     background-color: rgb(62, 10, 105);
     width: 100%;
-    min-width: 100vw;
+    
     max-width: 100%;
     box-shadow: 1px 1px 1rem black;
 }
@@ -31,6 +35,10 @@ mat-toolbar .menu{
 .example-icon:hover{
     background-color: var(--bk-card);
     color: #000;
+}
+.menu div a{
+    color: white;
+    text-decoration: none;
 }
 
 //login
@@ -52,4 +60,6 @@ mat-toolbar .menu{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
+

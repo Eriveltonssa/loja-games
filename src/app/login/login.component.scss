@@ -1,0 +1,36 @@
+
+#section-login{
+  
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1rem black;
+    border-radius: 10px;
+   background-image: linear-gradient( rgb(62, 10, 105),black );
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+#section-login .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+}
+#section-login .row label{
+  color: white;
+}
+#section-login .row input{
+  width: 30vw;
+}
+#section-login .row button{
+  width: 10vw;
+}
+#section-login .row img{
+  width: 5vw;
+  cursor: pointer;
+}

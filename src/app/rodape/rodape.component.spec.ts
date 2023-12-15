@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+//material angular
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { RodapeComponent } from './rodape.component';
 
@@ -8,7 +10,7 @@ describe('RodapeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RodapeComponent]
+      imports: [RodapeComponent,MatGridListModule]
     })
     .compileComponents();
     

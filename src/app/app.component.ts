@@ -8,12 +8,20 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 
 //importação componetes
 import { InicioComponent } from './inicio/inicio.component'; 
+import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+
+
+
 
 @Component({
   selector: 'app-root',
@@ -28,7 +36,12 @@ import { RodapeComponent } from './rodape/rodape.component';
     MatMenuModule,
     InicioComponent,
     MenuComponent ,
-    RodapeComponent
+    RodapeComponent,
+    MatButtonModule,
+    MatCardModule,
+    MatGridListModule,
+    LoginComponent,
+
   
   
   ],
