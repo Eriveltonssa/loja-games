@@ -1,0 +1,29 @@
+
+main{
+    display: flex;
+    width: 100%;
+}
+main #section-banner{
+    width: 100%;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+ 
+    
+}
+
+.carousel-item{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+   
+}
+.carousel-item img{
+ width: 100%;
+
+   
+}

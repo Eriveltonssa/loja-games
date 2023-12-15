@@ -1,0 +1,55 @@
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    font-family: 'Gotham';
+    font-size: 18px;
+    font-weight: 300;
+    gap: 5px;
+    color: var(--fonte-white);
+    
+}
+
+mat-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(62, 10, 105);
+    width: 100%;
+    min-width: 100vw;
+    max-width: 100%;
+    box-shadow: 1px 1px 1rem black;
+}
+mat-toolbar .menu{
+    margin-left: 10px;
+}
+.example-icon{
+    transition: 0.5s;
+}
+.example-icon:hover{
+    background-color: var(--bk-card);
+    color: #000;
+}
+
+//login
+.login{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    font-family: 'Gotham';
+    font-size: 18px;
+    font-weight: 500;
+    gap: 8px;
+    
+}
+.login a{
+    text-decoration: none;
+    color: var(--fonte-white);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
